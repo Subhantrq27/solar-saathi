@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = joblib.load("../ml_model/solar_model.pkl")
+model = joblib.load("solar_model.pkl")
 
 CITY_SUN_HOURS = {
     "Lahore": 5.2, "Karachi": 6.1, "Islamabad": 5.5,
